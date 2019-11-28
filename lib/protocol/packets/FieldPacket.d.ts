@@ -1,5 +1,5 @@
 
-declare interface FieldPacket<T> extends Array<Object> {
+declare interface FieldPacket<T=any> extends Array<Object> {
     constructor: {
         name: 'FieldPacket'
     };

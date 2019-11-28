@@ -1,5 +1,5 @@
 
-declare interface RowDataPacket<T> extends Array<Object> {
+declare interface RowDataPacket<T=any> extends Array<Object> {
     constructor: {
         name: 'RowDataPacket'
     };
